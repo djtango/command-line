@@ -1,6 +1,6 @@
 print lines matching a pattern
 Searches for lines within the file for text matching the regexp argument
-grep [options] Pattern [File...}
+grep [options] Pattern [File...]
 grep [options] [-e pattern | -f file] [file ...]
 options:
 
@@ -8,7 +8,7 @@ options:
 -a #process binary as if text 
 -c --count #outputs #matches found -c -v outputs #nonmatches found
 -d action #actions: read,skip,recurse. use for grepping dirs, read treats them as text, skip ignores, recurse for inner files
--e escapes pattern input and takes it as literal entry
+-e #escapes pattern input and takes it as literal entry
 -F --fixed-strings #pattern interpreted as list of fixed strings any of which to be matched
 -P #perl regexp
 -f file #greps detail in the file one line per match
