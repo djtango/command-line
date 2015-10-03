@@ -1,0 +1,15 @@
+wc [option]... [file]...
+wc [option]... --files0-from=F
+
+prints counts for each file and a total where applicable
+reads standard input when no file specificed
+options specify what counts are tallied
+by default, prints newline, word and byte counts #in this order
+
+options:
+-c --bytes
+-m --chars
+-l --lines
+-L --max-line-length
+-w --words
+
