@@ -1,0 +1,14 @@
+mv - used for renaming or moving files (action is equivalent to the terminal)
+
+mv file1 file2
+mv file ... dir
+mv dir1 dir2
+
+options:
+-a (transfer access control list - only relevant for device-device moves) -a -p transfers permissions
+-d move after reboot
+-f ignore prompts
+-i always prompt before overwriting
+-q no warnings
+-r recursive move: move everything under the dir
+-v print files as moved
